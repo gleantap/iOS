@@ -1,0 +1,6 @@
+framework module GleanTap {
+  umbrella header "GleanTap.h"
+
+  export *
+  module * { export * }
+}
