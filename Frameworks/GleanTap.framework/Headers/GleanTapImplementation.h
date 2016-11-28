@@ -15,5 +15,7 @@
 -(void)registerForPushNotifications;
 -(void)handlePushNotificationRegistration:(NSString*)deviceToken;
 -(void)handlePushReceived:(NSDictionary*)pushData;
-
+-(void)triggerEventWithEventName:(NSString*)eventName;
+-(void)identitfyUserWithData:(NSDictionary*)dataDict;
+-(void)saveUserSession;
 @end
