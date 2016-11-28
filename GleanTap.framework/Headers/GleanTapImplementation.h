@@ -8,9 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <UserNotifications/UserNotifications.h>
 
-@interface GleanTapImplementation : NSObject
--(void)myFirstFunction:(NSString*)string;
--(void)mySecondFunc:(NSString*)string;
--(void)myThirdFunc;
+@interface GleanTapImplementation : NSObject<UNUserNotificationCenterDelegate>
+
+-(void)registerForPushNotifications;
+-(void)handlePushNotificationRegistration:(NSString*)deviceToken;
+-(void)handlePushReceived:(NSDictionary*)pushData;
+
 @end

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GleanTapFramework"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A short description of GleanTapFramework."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
 
-  s.source       = { :git => "https://github.com/MaliniRam/GleanTapTest.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/MaliniRam/GleanTapTest.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
