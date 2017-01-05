@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <UserNotifications/UserNotifications.h>
-
-@interface GleanTapImplementation : NSObject<UNUserNotificationCenterDelegate>
+#import <CoreLocation/CoreLocation.h>
+@interface GleanTapImplementation : NSObject<UNUserNotificationCenterDelegate,CLLocationManagerDelegate>
 
 -(void)registerForPushNotifications;
 -(void)handlePushNotificationRegistration:(NSString*)deviceToken;
@@ -18,6 +18,12 @@
 -(void)saveUserDetails:(NSDictionary*)dataDict;
 -(void)handlePushReceived:(NSDictionary*)pushData;
 -(void)triggerEventWithEventName:(NSString*)eventName;
+-(void)triggerTags:(NSArray*)tagNames;
 -(void)identitfyUserWithData:(NSDictionary*)dataDict;
--(void)saveUserSession;
+-(void)appOpened;
+-(void)appClosed;
+-(void)enableCorelocationServices;
+-(void)saveUser;
++ (GleanTapImplementation*)sharedObject;
+
 @end
