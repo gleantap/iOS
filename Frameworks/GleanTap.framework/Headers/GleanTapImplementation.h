@@ -20,6 +20,7 @@
 -(void)triggerEventWithEventName:(NSString*)eventName;
 -(void)triggerTags:(NSArray*)tagNames;
 -(void)identitfyUserWithData:(NSDictionary*)dataDict;
+-(void)assignYourOwnUserID:(NSString*)userID;
 + (GleanTapImplementation*)sharedObject;
 
 @end
