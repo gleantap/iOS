@@ -9,19 +9,19 @@
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
+  #I
   #  These will help people to find your library, and whilst it
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
 
   s.name         = "GleanTapFramework"
-  s.version      = "1.0.23"
+  s.version      = "1.0.24”
   s.summary      = "A short description of GleanTapFramework."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
+  #   * Try to keep it short, snappy the:and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "GleanTap allows developers to receive push notifications just by adding few lines of code to their project"
