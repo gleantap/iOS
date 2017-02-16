@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char GleanTapVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <GleanTap/PublicHeader.h>
 
 #import <GleanTap/GleanTapImplementation.h>
+#import <GleanTap/GleanTapAutoIntegrate.h>
