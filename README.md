@@ -40,7 +40,7 @@ Manually Installing the Framework
 
 Download the framework manually from github or clone it using the following command
 
-git clone (https://github.com/gleantap/gleantap-ios.git)
+git clone (https://github.com/gleantap/iOS)
 
 Step two
 
