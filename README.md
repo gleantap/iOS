@@ -80,7 +80,6 @@ Add the following code to your Objective-C Bridging header file. You can refer A
 
 Navigate to the Build Settings tab in your project workspace and under the Swift Compiler - General ensure the Objective-C Bridging Header has the path to the newly created bridging header file.
 
-Integrating the SDK
-refer the below link
+For Integrating the SDK refer below link
 
 (https://app.gleantap.com/docs/)
