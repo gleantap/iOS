@@ -1,4 +1,4 @@
-# GleanTapTest
+# GleanTap
 
 pod "GleanTapFramework"
 # iOS
