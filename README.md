@@ -36,7 +36,7 @@ Once this is successful it will create a new workspace in your xCode.
 
 Manually Installing the Framework
 
-##Step one
+Step one
 
 Download the framework manually from github or clone it using the following command
 
@@ -73,8 +73,11 @@ SWIFT
 Add the following code to your Objective-C Bridging header file. You can refer Apple's Documentation to see how to create the Objective-C Bridging header file.
 
 #import <GleanTap/GleanTap.h>
+
 #import <GleanTap/GleanTapImplementation.h>
+
 #import <GleanTap/GleanTapAutoIntegrate.h>
+
 Navigate to the Build Settings tab in your project workspace and under the Swift Compiler - General ensure the Objective-C Bridging Header has the path to the newly created bridging header file.
 
 Integrating the SDK
