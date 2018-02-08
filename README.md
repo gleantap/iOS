@@ -63,7 +63,7 @@ From the Dashboard or the Configuration page of your App in your GleanTap.com ac
 # Initializing the Library
 To start using GleanTap you need the initialize the library.
 
-****Objective - C*****
+****Objective - C****
 
 Add the following code to your AppDelate class and to any other class where you plan to track custom events, tags or user profile details.
 
