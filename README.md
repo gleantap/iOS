@@ -8,7 +8,7 @@ The GleanTap SDK is distributed via CocoaPods and also available as a manually i
 # Installing using CocoaPods
 CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. Its an easy way to install the framework to your project.
 
- **Step one**
+ ***Step one***
 
 If you don't already have cocoapods installed, you can install it using the below command. If you have cocoapods and have used it before then continue to step two.
 
