@@ -7,7 +7,8 @@
 
 # Installing using CocoaPods
 
-1. If you don't already have cocoapods installed, you can install it using the below command. If you have cocoapods and have used it   before then continue to step two.
+
+1. If you don't already have cocoapods installed, you can install it using the below command. If you have cocoapods and have used it    before then continue to step two.
   
        sudo gem install cocoapods
      
@@ -18,12 +19,14 @@
   This may take a few minutes. The --verbose option will show you the progress logs to  watch the process. Once done, you are ready to   move to step two.
 
 
+
 2. Create a file calledÊPodFileÊin your xCode project and add the following code in that. Substitute your Project Name forÊYourProjectNameÊin the below code.
    
    
          target 'YourProjectName' do    
           pod 'GleanTapFramework' 
           end 
+
 
 
 3.In your terminal navigate to your project directory and type the following command
@@ -45,10 +48,10 @@
            git clone https://github.com/gleantap/gleantap-ios.git 
 
 
-2.Drag the fallowing framework file into your xCode Project Workspace.
+2. Drag the fallowing framework file into your xCode Project Workspace.
 
 
-3.Go to General > Embedded Libraries and add the GleanTap.framework to that. Also, add CoreLocation.framework to the Linked Frameworks & Libraries.
+3. Go to General > Embedded Libraries and add the GleanTap.framework to that. Also, add CoreLocation.framework to the Linked Frameworks  & Libraries.
 
 
 # Initializing & Configuring 
