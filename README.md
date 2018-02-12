@@ -9,11 +9,11 @@
 
 1. If you don't already have cocoapods installed, you can install it using the below command. If you have cocoapods and have used it   before then continue to step two.
   
-     sudo gem install cocoapods
+       sudo gem install cocoapods
      
    Use the following command to complete the setup
 
-     pod setup --verbose
+        pod setup --verbose
      
   This may take a few minutes. The --verbose option will show you the progress logs to  watch the process. Once done, you are ready to   move to step two.
 
