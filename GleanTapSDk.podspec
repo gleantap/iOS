@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint GleanTapFramework.podspec' to ensure this is a
+#  Be sure to run `pod spec lint GleanTapSDk.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,18 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "GleanTapFramework"
-  s.version      = "2.0.0"
-  s.summary      = "A short description of GleanTapFramework."
+  s.name         = "GleanTapSDk"
+  s.version      = "3.0"
+  s.summary      = "A short description of GleanTapSDK."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "GleanTap allows developers to receive push notifications just by adding few lines of code to their project"
+  s.description  = "GleanTapSDK allows developers to receive push notifications just by adding few lines of code to their project"
 
-  s.homepage     = "http://EXAMPLE/GleanTapFramework"
+  s.homepage     = "https://github.com/gleantap/iOS"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Author Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the authors of the library, with email addresses. Email addresses
   #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
@@ -51,10 +51,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Malini Ram" => "malini.ramanathan@snyxius.com" }
-  # Or just: s.author    = "Malini Ram"
-  # s.authors            = { "Malini Ram" => "malini.ramanathan@snyxius.com" }
-  # s.social_media_url   = "http://twitter.com/Malini Ram"
+  s.author             = { "SagarBabber" => "sagar@gleantap.com" }
+  # Or just: s.author    = "gleantap"
+  # s.authors            = { "gleantap" => "email@address.com" }
+  # s.social_media_url   = "http://twitter.com/gleantap"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,8 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-
-  s.source       = { :git => "https://github.com/MaliniRam/GleanTapTest.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/gleantap/iOS.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,9 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
- # s.source_files  = "Classes", "Classes/**/*.{h,m}"
+
   s.exclude_files = "Classes/Exclude"
 
+  # s.public_header_files = "Classes/**/*.h"
    s.source_files = "GleanTap.framework/Headers/*.{h,m}"  
 
 
