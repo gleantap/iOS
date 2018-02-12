@@ -28,7 +28,7 @@
 
    3.In your terminal navigate to your project directory and type the following command
     
-    pod install 
+          pod install 
     
    Once this is successful it will create a new workspace in your xCode.
 
@@ -42,7 +42,7 @@
    1.Download the framework manually from github or clone it using the following command
    
 
-              git clone https://github.com/gleantap/gleantap-ios.git 
+           git clone https://github.com/gleantap/gleantap-ios.git 
 
 
    2.Drag the fallowing framework file into your xCode Project Workspace.
@@ -53,39 +53,40 @@
 
 # Initializing & Configuring 
 
-Once you have installed the GleanTap framework you need to add the GleanTap configuration and initialize the library.
+   Once you have installed the GleanTap framework you need to add the GleanTap configuration and initialize the library.
 
 
 # Adding GleanTap Configuration
 
-From the Dashboard or the Configuration page of your App in your GleanTap.com account get GleanTap App Id. Open Info.plist file in your xCode project workspace and add a new entry with the key GleanTapAppId & the value copied from the account.
+   From the Dashboard or the Configuration page of your App in your GleanTap.com account get GleanTap App Id. Open Info.plist file in your xCode project workspace and add a new entry with the key GleanTapAppId & the value copied from the account.
 
 
 
 # Initializing the Library
 
-To start using GleanTap you need the initialize the library.
+   To start using GleanTap you need the initialize the library.
 
 ****Objective - C****
 
 Add the following code to your AppDelate class and to any other class where you plan to track custom events, tags or user profile details.
 
-               import <GleanTap/GleanTapImplementation.h>
+            #import <GleanTap/GleanTapImplementation.h>
  
 ****SWIFT****
 
-Add the following code to your Objective-C Bridging header file. You can refer Apple's Documentation to see how to create the Objective-C Bridging header file.
+   Add the following code to your Objective-C Bridging header file. You can refer Apple's Documentation to see how to create the Objective-C Bridging header file.
 
-              **#import <GleanTap/GleanTap.h>**
 
-            **#import <GleanTap/GleanTapImplementation.h>**
+            #import <GleanTap/GleanTap.h>
 
-            **#import <GleanTap/GleanTapAutoIntegrate.h>**
+            #import <GleanTap/GleanTapImplementation.h>
 
-Navigate to the Build Settings tab in your project workspace and under the Swift Compiler - General ensure the Objective-C Bridging Header has the path to the newly created bridging header file.
+            #import <GleanTap/GleanTapAutoIntegrate.h>
+
+  Navigate to the Build Settings tab in your project workspace and under the Swift Compiler - General ensure the Objective-C Bridging Header has the path to the newly created bridging header file.
 
 
 # For Integrating the SDK refer below link
 
-(https://app.gleantap.com/docs/)
+  (https://app.gleantap.com/docs/)
 
