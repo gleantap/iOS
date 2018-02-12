@@ -7,7 +7,7 @@
 
 # Installing using CocoaPods
 
-  1.If you don't already have cocoapods installed, you can install it using the below command. If you have cocoapods and have used it   before then continue to step two.
+1. If you don't already have cocoapods installed, you can install it using the below command. If you have cocoapods and have used it   before then continue to step two.
   
      sudo gem install cocoapods
      
@@ -15,10 +15,10 @@
 
      pod setup --verbose
      
-  This may take a few minutes. The --verbose option will show you the progress logs to  watch the process. Once done, you are ready to  move to step two.
+  This may take a few minutes. The --verbose option will show you the progress logs to  watch the process. Once done, you are ready to   move to step two.
 
 
-   2.Create a file calledÊPodFileÊin your xCode project and add the following code in that. Substitute your Project Name forÊYourProjectNameÊin the below code.
+2. Create a file calledÊPodFileÊin your xCode project and add the following code in that. Substitute your Project Name forÊYourProjectNameÊin the below code.
    
    
          target 'YourProjectName' do    
@@ -26,7 +26,7 @@
           end 
 
 
-   3.In your terminal navigate to your project directory and type the following command
+3.In your terminal navigate to your project directory and type the following command
     
           pod install 
     
@@ -39,26 +39,26 @@
 # Manually Installing the Framework
 
 
-   1.Download the framework manually from github or clone it using the following command
+1. Download the framework manually from github or clone it using the following command
    
 
            git clone https://github.com/gleantap/gleantap-ios.git 
 
 
-   2.Drag the fallowing framework file into your xCode Project Workspace.
+2.Drag the fallowing framework file into your xCode Project Workspace.
 
 
-   3.Go to General > Embedded Libraries and add the GleanTap.framework to that. Also, add CoreLocation.framework to the Linked Frameworks & Libraries.
+3.Go to General > Embedded Libraries and add the GleanTap.framework to that. Also, add CoreLocation.framework to the Linked Frameworks & Libraries.
 
 
 # Initializing & Configuring 
 
-   Once you have installed the GleanTap framework you need to add the GleanTap configuration and initialize the library.
+Once you have installed the GleanTap framework you need to add the GleanTap configuration and initialize the library.
 
 
 # Adding GleanTap Configuration
 
-   From the Dashboard or the Configuration page of your App in your GleanTap.com account get GleanTap App Id. Open Info.plist file in your xCode project workspace and add a new entry with the key GleanTapAppId & the value copied from the account.
+From the Dashboard or the Configuration page of your App in your GleanTap.com account get GleanTap App Id. Open Info.plist file in your xCode project workspace and add a new entry with the key GleanTapAppId & the value copied from the account.
 
 
 
@@ -74,7 +74,7 @@ Add the following code to your AppDelate class and to any other class where you 
  
 ****SWIFT****
 
-   Add the following code to your Objective-C Bridging header file. You can refer Apple's Documentation to see how to create the Objective-C Bridging header file.
+Add the following code to your Objective-C Bridging header file. You can refer Apple's Documentation to see how to create the Objective-C Bridging header file.
 
 
             #import <GleanTap/GleanTap.h>
