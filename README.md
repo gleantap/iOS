@@ -20,7 +20,7 @@
 
 
 
-2. Create a file calledÊPodFileÊin your xCode project and add the following code in that. Substitute your Project Name forÊYourProjectNameÊin the below code.
+2. Create a file called PodFile in your xCode project and add the following code in that. Substitute your Project Name for YourProjectName in the below code.
    
    
          target 'YourProjectName' do    
