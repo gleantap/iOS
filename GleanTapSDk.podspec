@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GleanTapSDk"
-  s.version      = "3.1"
+  s.version      = "4.0"
   s.summary      =  'A short description of GleanTapSDK.'
 
   # This description is used to generate tags and improve search results.
